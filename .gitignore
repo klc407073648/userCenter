@@ -2,7 +2,7 @@
 # backend
 /backend/HELP.md
 /backend/target/
-/backend/!.mvn/wrapper/maven-wrapper.jar
+/backend/.mvn
 /backend/!**/src/main/**/target/
 /backend/!**/src/test/**/target/
 
@@ -32,15 +32,16 @@
 /backend!**/src/test/**/build/
 
 ### VS Code ###
-/backend.vscode/
+/backend/.vscode/
 
-
+## config
+/backend/src/main/resources/application-prod.yml
 
 
 # frontend
 
 ## dependencies
-/frontend/**/node_modules
+/frontend/node_modules
 
 ## roadhog-api-doc ignore
 /frontend//src/utils/request-temp.js
@@ -77,3 +78,10 @@
 /frontend/.firebase
 /frontend/.eslintcache
 /frontend/build
+
+## directory
+/frontend/.husky
+/frontend/.idea
+/frontend/.vscode
+/frontend/public
+/frontend/src/.umi
