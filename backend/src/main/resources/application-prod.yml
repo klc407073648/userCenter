@@ -4,7 +4,7 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://$MYSQL_IP:$MYSQL_PORT/$OPENAPI_BACKEND_DATABASE
+    url: jdbc:mysql://$MYSQL_IP:$MYSQL_PORT/$USERCENTER_BACKEND_DATABASE
     username: $MYSQL_USER
     password: $MYSQL_PASSWORD
   session:
